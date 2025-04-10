@@ -22,9 +22,9 @@ This repository contains:
 1. Open “DS 4002 Project 3 Code.ipynb” script in Google Colab (file found in SCRIPTS folder in Github).
 2. Download tomatoes dataset in DATA folder: click Google Drive link and download the files in the four folders.
 3. Run “PART 1: EDA” in "DS 4002 Project 3 Code.ipynb" Python script.
-* Create 4 folders in left margin under 'sample_data" in Google Colab (call them: damaged, old, ripe, unripe).
-* Read in tomato data.
-* Import any necessary packages.
+* Create 4 folders in left margin under 'sample_data" in Google Colab (call them: damaged, old, ripe, unripe)
+* Read in tomato data
+* Import any necessary packages
 * Run 5 eda plots
 4. Run “PART 2: CNN Analysis” in "DS 4002 Project 3 Code.ipynb" Python script.
 * Create 1 folder called "tomatoes" under sample_data in Google Colab in left margin. Put the already existing folders (damaged, old, ripe, unripe) into tomatoes folder.
