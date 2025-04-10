@@ -12,7 +12,7 @@ This repository contains:
 * DATA Folder
   * Link to Google Drive with Image Data 
 * SCRIPTS
-  * EDA + ANALYSIS Script
+  * EDA + ANALYSIS Script (DS 4002 Project 3 Code.ipynb)
 * OUTPUT
   * Data dictionary (DATA DICTIONARY.pdf)
   * EDA Plots (EDA PLOTS.pdf)
