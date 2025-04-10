@@ -12,23 +12,20 @@ This repository contains:
 * DATA Folder
   * Link to Google Drive with Image Data 
 * SCRIPTS
-  * EDA Script
+  * EDA + ANALYSIS Script
 * OUTPUT
   * Data dictionary (DATA DICTIONARY.pdf)
   * EDA Plots (EDA PLOTS.pdf)
   * Analysis Results and Final Plots (ANALYSIS PLOT + RESULTS.pdf)
 
 ## Section 3: Instructions for Reproducing Our Results
-1. Open “DS 4002 Project 3 Code.ipynb” script in Google Colab (file found in SCRIPTS folder in Github)
-2. Download tomatoes dataset: Import all 20 pilot show script pdfs into Google Colab (files found in DATA folder in Github)
-3. Run “PART 1: Prepare data” in Python script
-* Import any necessary packages (install PyPDF2 and SentimentIntensityAnalyzer)
-* Extract text from PDF and save as a new Pandas data frame 
-* Install and define VADER
-4. Run “PART 2: EDA plot” in Python script
-* For accessibility, save dataframe of produced sentiment scores as an .xlsx file (this has already been provided to you in the SCRIPTS folder and is called "all_sentiment_scores.xlsx"). This is the final data used for analysis.
-* Run the three EDA plots
-5. Run “PART 3: Multiple Linear Regression Analysis” in Python code
-* Read in excel ("all_sentiment_scores.xlsx") and print df
-* Run Multiple Linear Regression on data
-* Run plot 4
+1. Open “DS 4002 Project 3 Code.ipynb” script in Google Colab (file found in SCRIPTS folder in Github).
+2. Download tomatoes dataset in DATA folder: click Google Drive link and download the files in the four folders.
+3. Run “PART 1: EDA” in Python "DS 4002 Project 3 Code.ipynb" script
+* Create 4 folders in left margin under 'sample_data" in Google Colab (call them: damaged, old, ripe, unripe)
+* Read in tomato data
+* Import any necessary packages
+* Run 5 eda plots
+4. Run “PART 2: CNN Analysis” in Python script
+* Create 1 folder called "tomatoes" under sample_data in Google Colab in left margin. Put the already existing folders (damaged, old, ripe, unripe) into tomatoes folder.
+* Run script to build CNN model, test model accuracy, and generate final results table
