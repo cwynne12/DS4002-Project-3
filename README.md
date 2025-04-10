@@ -1,7 +1,7 @@
 # DS4002-Project-3
 ## Section 1: Software and Platforms
 Software: We used Google Colab to perform EDA and CNN analysis 
-* Packages used: pandas, numpy, matplotlib, CV2
+* Packages used: pandas, numpy, matplotlib, CV2 to conduct our intial preprocessing and EDA. ImageDataGenerator from tensor flow was used to run the CNN analysis.
 * Platform: All members used Macs
 
 ## Section 2: Map of Our Documentation 
